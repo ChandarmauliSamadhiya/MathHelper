@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
+namespace ConsoleApp1
+{
 static class MathHelper
 {
     public static double CalculateAverage(int[] numbers)
@@ -32,5 +33,6 @@ class Program
         Console.WriteLine($"Average: {average}");
         Console.ReadLine();
     }
+  }
 }
 
