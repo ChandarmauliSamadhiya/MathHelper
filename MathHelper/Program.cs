@@ -30,7 +30,7 @@ class Program
         int[] numbers = { 10, 20, 30, 40, 50 };
 
         double average = MathHelper.CalculateAverage(numbers);
-        Console.WriteLine($"Average: {average}");
+        Console.WriteLine("Average: " + average);
         Console.ReadLine();
     }
   }
